@@ -4,6 +4,7 @@ Title: "Improving Crop Yield Accuracy for Optimized Harvest Planning"
 
 #########################
 <br>
+<br>
 Key Challenges:
 
 - Inaccurate yield predictions
