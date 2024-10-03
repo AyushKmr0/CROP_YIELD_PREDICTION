@@ -3,6 +3,7 @@ Statement 1: ### CROP YIELD PREDICTION ####
 Title: "Improving Crop Yield Accuracy for Optimized Harvest Planning"
 
 #########################
+<br>
 Key Challenges:
 
 - Inaccurate yield predictions
