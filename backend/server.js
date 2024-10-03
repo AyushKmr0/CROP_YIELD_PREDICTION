@@ -1,14 +1,16 @@
-const app = require("./app");
+const app = require('./app');
+const dotenv = require('dotenv');
+const path = require('path');
+const connectDB = require('./config/db');
 
-const dotenv = require("dotenv");
+// Load environment variables 
+dotenv.config({ path:"backend/config/config.env"});
 
+//connecting to database
+connectDB();
 
+const PORT = process.env.PORT || 5000; // Default port - 5000
 
-// Config
-
-dotenv.config({path:"backend/config/config.env"});
-
-app.listen(process.env.PORT,()=> {
-    
-    console.log(`Server is working on http://localhost:${process.env.PORT}`)
-})
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
